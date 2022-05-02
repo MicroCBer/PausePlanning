@@ -3,7 +3,7 @@
   "id": "PausePlanning",
   "name": "PausePlanning",
   "author": "MicroBlock",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A mod that allows you to plan when to pause the game.",
   "gameVersion": "1.21.0",
   "dependsOn": {

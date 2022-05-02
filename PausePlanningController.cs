@@ -65,8 +65,11 @@ namespace PausePlanning
 
             gameplayCoreSceneSetupData = BS_Utils.Plugin.LevelData.GameplayCoreSceneSetupData;
             if (Config.UserConfig.mod_enabled && !Config.UserConfig.recording_enabled)
+            {
+                BS_Utils.Gameplay.ScoreSubmission.DisableSubmission("Pause Planning");
                 pauses = GetPauses(gameplayCoreSceneSetupData.difficultyBeatmap);
-            else 
+            }
+            else
                 pauses = new List<float>();
             configParsed = GetConfig(gameplayCoreSceneSetupData.difficultyBeatmap);
         }
@@ -76,7 +79,7 @@ namespace PausePlanning
             if (!System.IO.File.Exists(lp))
             {
                 Plugin.Log.Info("Level pause config file not found, creating..");
-                System.IO.File.WriteAllText(lp, "{\"pauses\":[],\"pausePlanningVersion\":\"0.1.2\"}");
+                System.IO.File.WriteAllText(lp, "{\"pauses\":[],\"pausePlanningVersion\":\"0.1.3\"}");
             }
             return lp;
         }
