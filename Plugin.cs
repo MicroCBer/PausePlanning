@@ -62,7 +62,7 @@ namespace PausePlanning
             new GameObject("PausePlanningController").AddComponent<PausePlanningController>();
             BeatSaberMarkupLanguage.GameplaySetup.GameplaySetup.instance.AddTab("Pause Planning", "PausePlanning.modifierUI.bsml", ModifierUI.instance);
             UnityEngine.SceneManagement.SceneManager.activeSceneChanged += SceneManager_activeSceneChanged;
-            harmony = new Harmony("Kinsi55.BeatSaber.BetterSongList");
+            harmony = new Harmony("ink.microblock.PausePlanning");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
 
