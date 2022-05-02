@@ -76,7 +76,7 @@ namespace PausePlanning
             if (!System.IO.File.Exists(lp))
             {
                 Plugin.Log.Info("Level pause config file not found, creating..");
-                System.IO.File.WriteAllText(lp, "{\"pauses\":[],\"pausePlanningVersion\":\"0.1.0\"}");
+                System.IO.File.WriteAllText(lp, "{\"pauses\":[],\"pausePlanningVersion\":\"0.1.1\"}");
             }
             return lp;
         }
