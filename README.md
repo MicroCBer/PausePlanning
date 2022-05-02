@@ -10,7 +10,7 @@ Remember to edit README.md and add what you have done into the list before makin
 The format is the same as the files in the folder `C:\Users\[Your Name]\BeatSaberPlugins\PausePlanning\Levels`.
 
 # Credits
-| | Reasons |
+| |  |
 |--|--|
 | [Tuc](https://space.bilibili.com/628321) | Help to test the mod |
 | Kinsi | Help with some codes |
