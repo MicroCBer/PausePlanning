@@ -17,7 +17,7 @@
   <vertical pad-top='40'>
     <horizontal child-expand-width='true'>
       
-      <text text='PausePlanning 暂停计划 v0.1.1 by MicroBlock' font-color='#ff0080ff' font-size='3' align='Center'></text>
+      <text text='PausePlanning 暂停计划 v0.1.2 by MicroBlock' font-color='#ff0080ff' font-size='3' align='Center'></text>
     </horizontal>
   </vertical>
 </bg>
