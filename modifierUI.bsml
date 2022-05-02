@@ -1,0 +1,23 @@
+﻿<bg xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='https://monkeymanboy.github.io/BSML-Docs/ https://raw.githubusercontent.com/monkeymanboy/BSML-Docs/gh-pages/BSMLSchema.xsd'>
+  <settings-container>
+    <checkbox-setting value ='mod_enabled' on-change='set_mod_enabled' text='Enabled 启用Mod' hover-hint='是否启用Mod'></checkbox-setting>
+    <checkbox-setting value ='recording_enabled' on-change='set_recording_enabled' text='Recording mode 记录模式' hover-hint='When you pause the game by yourself, record the pause to the config file.      当你自己摁暂停的时候，把这次暂停记录到文件里。'></checkbox-setting>
+    <button text='Fetch from Internet 获取在线暂停配置' on-click='FetchFromInternet' min-width='20'/>
+    
+    <horizontal>
+       <vertical preferred-width='80' child-control-width='true'>
+         <text text='~noticee' font-color='#f55762' font-size='4' align='Center'></text>
+        <text text='Pauses 暂停点' font-color='#ffffff' font-size='8' align='Center'></text>
+         <text text='~lvname' font-size='7' align='Center'></text>
+        <text text='~pauses' font-size='5' align='Center'></text>
+      </vertical>
+    </horizontal>
+
+</settings-container>
+  <vertical pad-top='40'>
+    <horizontal child-expand-width='true'>
+      
+      <text text='PausePlanning 暂停计划 v0.1.1 by MicroBlock' font-color='#ff0080ff' font-size='3' align='Center'></text>
+    </horizontal>
+  </vertical>
+</bg>

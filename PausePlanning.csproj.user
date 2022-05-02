@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <BeatSaberDir>E:\SteamLib\steamapps\common\Beat Saber</BeatSaberDir>
+    <!-- Path to your Beat Saber install, only set if different from BeatSaberDir. -->
+    <!--<GameDirectory></GameDirectory>-->
+  </PropertyGroup>
+</Project>
