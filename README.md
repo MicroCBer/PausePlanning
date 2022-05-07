@@ -1,3 +1,5 @@
+## Just found nobody would use it except me if it would disable score submitting. So won't update the repo again lol. If you want the latest plugin plz dm me.
+
 # PausePlanning
 A Beat Saber mod that allows you to plan when to pause the game.
 
